@@ -1,5 +1,65 @@
-.bg_image{
-    background-image: url("https://st2.depositphotos.com/3725083/5485/i/600/depositphotos_54856347-stock-photo-travel-the-world-monument-concept.jpg");
-    background-size: cover;
-    background-color: bisque;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#container_1
+{
+     background-image: url("https://mobirise.com/extensions/businessm4/travel-agency/assets/images/artiom-vallat-558027-unsplash-1519757244-94.181.200.62-1920x1280.jpg");
+     background-size: cover;
+}
+
+.dropdown
+{
+   overflow: hidden;
+
+}
+
+.drop_button
+{
+   font-size: 16;
+   border: none;
+   outline: none;
+
+}
+.dropdown_content
+{
+    display: none;
+    display: inline;
+}
+
+.dropdown_content a
+{
+    color: black;
+    display: block;
+    text-align: left;
+}
+#container_1 ul
+{
+   text-align: right;
+}
+
+#Styling
+{
+    text-align: center;
+
+}
+
+#btn1
+{
+   background-color: white;
+   color: black;
+   border: 1px wheat solid;
+}
+
+#btn2
+{
+   background-color: white;
+   color: black;
+   border: 1px wheat solid;
+}
+
+p{
+    color: white;
 }
