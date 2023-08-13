@@ -18,7 +18,7 @@
     color: black;
 }
 
-.phone-structure a i{
+.phone-structure  i{
     border: 1px solid #183661;
     height: 30px;
     width: 30px;
@@ -26,6 +26,7 @@
     margin: 0px 5px;
     border-radius: 50%;
     padding-top: 5px;
+    color: white;
 
 }
 .social-icons
