@@ -6,26 +6,42 @@
 #first-navbar
 {
     display: flex;
-    background: #333;
+    /* background: #444; */
+    background-color: #9B9B9B;
 }
 
-.first-tab a image{
-    max-height: 100%;
-    max-width: 100%;
-    margin-top: 15px;
-}
-
-#first-navbar .second-tab
+#first-tab 
 {
+    height: 100%;
+    width: 100%;
+}
+
+.first-tab img
+{
+    margin: 15px;
+    color: aliceblue;
+}
+
+.second-tab
+{
+    background:  #333;
     color: #9B9B9B;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 50px;
-    padding: 0 20px;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    padding: 5px 40px 5px 40px;
     text-transform: uppercase;
 }
 
-#first-navbar .icons{
-    background: #333;
+
+.social-icons i {
+    background-color: #183661;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    margin: 0 5px;
+    padding-top: 5px;
 }
