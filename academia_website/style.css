@@ -12,6 +12,7 @@ body{
     font-size: 16px;
     /* font-weight: 400; */
     color: #999999;
+    background-color: #f8f9fa;
 }
 
 #first-navbar
@@ -361,3 +362,95 @@ body{
     line-height: 1.4;
     color: rgba(0, 0, 0, 0.8);
 }
+
+#course
+{ 
+    display: flex;
+    width: 100%;
+    background: #fff;
+    padding: 30px 30px 40px 30px;
+    margin: 10px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.a-flex
+{
+    display: flex;
+    padding-top: 8px;
+}
+
+.a-flex .text{
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.icon
+{
+    font-size: 30px;
+    color: #fff;
+    width: 80px; 
+    height: 50px;
+    border-radius: 50%;
+    background: #1eb2a6;
+    text-align: center; 
+    /* justify-content: center; */
+    padding-top: 6px;
+    margin-top: 13px;
+}
+
+.a-flex .text .rate{
+margin-bottom: 5px;
+/* color: #1eb2a6;
+ont-size: 14px; */
+}
+/* 
+.rate{
+    color: blue;
+} */
+/* 
+.a-flex .text .rate span{
+
+    background-color: #1eb2a6;
+} */
+
+.for-img
+{
+    display: flex;
+}
+
+.lec
+{
+    font-weight: 500;
+    font-style: 13px;
+}
+
+
+.lec a{
+    color:  #1eb2a6;
+    text-decoration: none;
+    font-weight: 500;
+}
+.for-img .bg-img1
+{
+   background-image: url("https://preview.colorlib.com/theme/academia/images/author-1.jpg");
+   width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.author
+{
+    font-weight: 700;
+    color: #9B9B9B;
+    padding-left: 10px;
+}
+
+.text-center1 .course-price span
+{
+   margin: 50px;
+    background-color: #f8f9fa;
+    color: #1eb2a6;
+    font-weight: bold;
+    align-items: center;
+}
+
