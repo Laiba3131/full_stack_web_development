@@ -466,6 +466,9 @@ ont-size: 14px; */
     background: transparent !important;
     color: #1eb2a6 !important;
     text-decoration: none;
-    
+}
 
+.custom-button:hover{
+    background-color: #1eb2a6;
+    color: #f8f9fa;
 }
