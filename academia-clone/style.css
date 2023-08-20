@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.firstsection{
+    background: url("images/bg_1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.navbar .logo .main-logo{
+    font-weight: 800;
+    font-size: 30px;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navbar .logo .main-logo:hover{
+    color: #1eb2a6;
+}
+
+.navbar .logo .logo-para{
+    color: #fff;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    font-weight: 500;
+}
+
+.firstsection .navbar .con{
+    width: 250px;
+    display: flex;
+}
+
+
+.firstsection .navbar .con .icon{
+    font-size: 40px;
+    color: white;
+}
+
+
+.firstsection .navbar .con .day,
+.firstsection .navbar .con .time{
+    display: block;
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.firstsection .navbar .contact{
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    line-height: 1.4;
+}
+
+.firstsection .navbar .contact .icon{
+    font-size: 37px;
+}
+
+.firstsection .navbar .contact .text{
+   padding: 2px;
+   margin-left: 5px;
+}
+
+
+.firstsection .navbar .social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    font-size: 20px;
+    color: #1eb2a6;
+    text-decoration: none;
+    margin: 25px 15px 30px 0;
+    transition: .5s ease;
+
+}
+
+.firstsection .navbar .social-media a:hover{
+    background: #1eb2a6;
+    color: #fff;  
+}
+
+/* first navbar end  */
+
+
+/* second navbar start  */
+
+.header{
+    left: 0;
+    width: 95%;
+    padding: 20px 3%;
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    background: rgba(255, 255, 255,.1);
+}
+
+.sec-logo{
+
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: #1eb2a6;
+    padding: 23px 13px 21px 43px;
+    color: #fff;
+    border-radius: 0;
+    /* display: inline-block; */
+    width: 250px;
+    text-align: center;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    text-decoration: none;
+    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 100%, 0 100%, 9% 61%, 23% 0);
+}
+
+.sec-navbar a{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.sec-navbar a.active{
+    color: #1eb2a6;
+}
+
+
+.firstsection .home{
+    width: 45%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    padding: 60px 7% 0;
+}
+
+.firstsection .home .home-content{
+    width: 440px;
+}
+
+.home-content h3{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.home-content .h-heading{
+    font-size: 40px;
+    font-weight: 700; 
+    margin-bottom: 15px;
+    color: #fff; 
+}
+
+.home-content .home-para{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    color: #fff;
+
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #1eb2a6;
+    border-radius: 6px;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, .2);
+    border: 2px solid transparent;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+#btn2{
+    background: #fff;
+    color: #1eb2a6;
+}
+
+/* second section  */
+
+/* left side  */
+
+.secondsection{
+    display: flex;
+}
+
+.secondsection .left{
+    background-color: aqua;
+    height: 100vh;
+    width: 50%;
+}
+
+.secondsection .left img{
+    /* position: relative; */
+    height: 124%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.secondsection .right{
+    background-color: rgb(247, 244, 244);
+    height: 130%;
+    width: 50%;
+    padding: 5%;
+    padding-top: 7%;
+}
+
+.secondsection .right .para{
+    color: #1eb2a6;
+    font-weight: 600;
+}
+
+.secondsection .right h1{
+    font-size: 45px;
+    padding: 10px 0;
+}
+
+.secondsection .right .card{
+    background: #fff;
+    width: 90%;
+    height: 35%;
+    padding: 5%;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.secondsection .right .card:hover{
+    background: #1eb2a6;
+    color: #fff;
+}
+
+#card:hover * {
+  color: white; 
+  background: #1eb2a6;
+}
+
+.secondsection .right .card .services{
+    display: flex;
+}
+
+.secondsection .right .card .icon{
+    font-size: 65px;
+    color: #1eb2a6;
+}
+
+.secondsection .right .card .text{
+    padding-left: 15px;
+}
+
+.secondsection .right .card .text h2{
+    margin-bottom: 11px;
+    font-weight: 400;
+}
+
+.secondsection .right .card .text .card-para{
+    padding-top: 5px;
+    line-height: 1.2;
+    color: rgb(139, 135, 135);
+}
+
+
+/* start third section  */
+
+.thirdsection{
+    background: rgb(0, 0, 0, 0.3) url(images/bg_3.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.thirdsection .overlay{
+    display: flex;
+}
+
+.thirdsection .overlay .third-content{
+    display: flex;
+    width: 280px;
+    margin: 5%;
+    margin-top: 7%;
+    padding-top: 18px;
+}
+
+
+.thirdsection .overlay .third-content .third-icon{
+    font-size: 60px;
+    color: #fff;
+}
+
+
+.thirdsection .overlay .third-content .third-head .text{
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 42px;
+    margin-left: 15px;
+}
+.thirdsection .overlay .third-content .third-head .third-para{
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+
+/* End third section  */
+
+/* slide start  */
+
+.slider{
+    height: 130vh;
+    width: 100%;
+    background: rgb(247, 244, 244);
+}
+
+.slider .content{
+    padding: 10%;
+    text-align: center;
+}
+
+.slider .content h3{
+    color: #1eb2a6;
+    font-size: 24px;
+}
+
+.slider .content h1{
+    font-size: 50px;
+}
+
+.slider .card-flex{
+    display: flex;
+    margin-left: 10%;
+}
+
+.slider .card{
+    background: #fff;
+    height: 55vh;
+    width: 340px;
+    /* border-radius: 6px; */
+    margin: 4px;
+    padding: 28px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+}
+
+.slider .card .course .d-flex{
+    display: flex;
+}
+
+.slider .card .course .d-flex .icon{
+    font-size: 60px;
+    color: #fff;
+    background: #1eb2a6;
+    border-radius: 50%;
+    height: 39%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .card .course .d-flex .text h2{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+
+.slider .card .course .d-flex .text .rate{
+    color: #1eb2a6;
+    font-weight: 700;
+}
+
+.slider .card .course .d-flex .text .author{
+    display: flex;
+}
+
+.slider .card .course .d-flex .text .author .author-name{
+    font-size: 18px;
+    padding: 5px;
+    color: #6c757d;
+    font-weight: 800;
+}
+
+
+.slider .card .course .d-flex .text .author .img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;    
+}
+
+.slider .card .course .d-flex .text .lec a{
+    text-decoration: none;
+    color: #1eb2a6;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.slider .card .course .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .card .course .text-center .course-price{
+    background: rgb(247, 244, 244);
+    height: 40px;
+    color: #1eb2a6;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 330px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.slider .card .course .text-center .card-btn{
+    border: 2px solid #1eb2a6;
+    width: 330px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #1eb2a6;
+    border-radius: 4px;
+    margin-top: 7px;
+    transition: .5s;
+}
+
+.slider .card .course .text-center .card-btn:hover{
+    background: #1eb2a6;
+    color: #fff;
+}
+
+/* slide End  */
+
+/* courses section start  */
+
+.courses{
+    height: 130vh;
+    width: 100%;
+    background: rgb(247, 244, 244);
+}
+
+.courses .content{
+    padding: 10%;
+    text-align: center;
+    margin-top: -10%;
+    /* align-items: center; */
+}
+
+.courses .content h3{
+    color: #1eb2a6;
+    font-size: 24px;
+}
+
+.courses .content h1{
+    font-size: 50px;
+}
+
+.courses .course-card{
+    height: 240px;
+    width: 175px;
+    background: #fff;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    transition: .5s;
+}
+
+.courses .course-card:hover{
+    background: #1eb2a6;
+}
+
+.courses .course-card:hover *{
+    color: white;
+}
+
+.courses .course-card a{
+    text-decoration: none;
+}
+
+.courses .course-card .icon{
+    font-size: 55px;
+    color: #1eb2a6;
+}
+
+.courses .course-card .text{
+    color: black;
+}
+
+.courses .course-card .text span{
+    color: #1eb2a6;
+    font-weight: 600;
+    background: rgb(247, 244, 244);
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.courses .course-flex{
+    display: flex;
+    margin-left: 7%;
+}
+
+/* courses section End  */
+
+/* Students Section Start  */
+
+.students{
+    height: 150vh;
+    width: 100%;
+    background: rgb(247, 244, 244);
+}
+
+.students .content{
+    padding: 10%;
+    text-align: center;
+    margin-top: -10%;
+    padding-top: 25%;
+    /* align-items: center; */
+}
+
+.students .content h3{
+    color: #1eb2a6;
+    font-size: 24px;
+}
+
+.students .content h1{
+    font-size: 50px;
+}
+
+.students .student-flex{
+    display: flex;
+    margin-left: 10%;
+}
+
+.students .student-card{
+    height: 320px;
+    width: 340px;
+    background: #fff;
+    margin-left: 2%;
+}
+
+.students .student-card .inner-flex .item .student-detail .text .d-flex{
+    padding: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.students .student-card .inner-flex .item .student-detail .text .d-flex .tx .position{
+    color: #1eb2a6;
+    font-weight: 700;
+    padding-left: 6px;
+}
+
+.students .student-card .inner-flex .item .student-detail .text .d-flex .tx .name{
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 6px;
+}
+
+.students .student-card .inner-flex .item .student-detail .text .d-flex .icon{
+    color: #fff;
+    background-color: #1eb2a6;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70%;
+}
+
+.students .student-card .inner-flex .item .student-detail .text p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 4%;
+    color: rgb(139, 135, 135);
+}
+
+.students .student-card .inner-flex .item .student-detail .text .d-flex .user-img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Students Section End  */
